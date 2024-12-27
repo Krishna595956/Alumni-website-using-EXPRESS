@@ -7,7 +7,7 @@ const { ObjectId } = require('mongodb'); // Import ObjectId from MongoDB
 const app = express();
 app.use(cors());
 const port = 3000;
-const mongoUrl = 'mongodb+srv://krishnareddy:1234567890@diploma.1v5g6.mongodb.net/';
+const mongoUrl = '';
 const dbName = 'userDB';
 let db;
 
